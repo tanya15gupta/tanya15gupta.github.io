@@ -365,6 +365,13 @@ section {
   margin-bottom: 0;
 }
 
+.about img {
+  margin-left: 20px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 50% 100%;
+}
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -622,8 +629,9 @@ section {
   padding-top: 40px;
 }
 
-.portfolio-details .portfolio-details-slider img {
-  width: 100%;
+.portfolio-details img {
+    height: auto;
+    max-width: 100%;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
