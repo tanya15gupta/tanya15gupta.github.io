@@ -4,190 +4,136 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="theme-color" content="#17111d">
 
-  <!--<title>Portfolio Details - iPortfolio Bootstrap Template</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords"> 
+  <title>Battle Tank - Tanya Gupta</title>
+  <meta content="A tank battle game built on a scalable architecture, with state-driven AI enemies, achievements and particle systems." name="description">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: iPortfolio - v3.10.0
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <script>document.documentElement.classList.add("js");</script>
+  <link href="assets/css/main.css" rel="stylesheet">
 </head>
 
 <body>
 
-   <!--======= Mobile nav toggle button ======= 
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>-->
+  <!-- ======= Icon sprite ======= -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></symbol>
+      <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7"/></symbol>
+      <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.2 1.9 1.2 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"/></symbol>
+    </defs>
+  </svg>
 
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
+  <main>
 
-      <!--<div class="profile">
-        <h1 class="text-light"><a href="index.html">Tanya Gupta</a></h1>
-		<div class="social-links mt-3 text-center">
-			<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-	        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-	        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-			<a href="https://www.instagram.com/m_tanyagupta/" class="instagram"><i class="bx bxl-instagram"></i></a>
-			<a href="https://www.linkedin.com/in/tanya-gupta-7a247422b/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-		</div>
+    <!-- ======= Page head ======= -->
+    <section class="page-head">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-grid"></div>
+        <div class="orb orb-1"></div>
       </div>
-
-      <nav id="navbar" class="nav-menu navbar">
-		  <ul>
-		  	<li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-		  	<li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-		  	<li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-		  	<li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-		  	<!-- <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
-	        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>-->
-		  </ul>
-      </nav><!-- .nav-menu -->
-    </div>
-  </header><!-- End Header -->
-
-  <main id="main">
-
-    <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs">
-      <div class="container">
-
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>Battle Tanks Game</h2>
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Battle Tanks</li>
-          </ol>
-        </div>
-
+      <div class="shell hero-inner">
+        <nav class="crumbs" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <a href="index.html#work">Projects</a>
+          <span>/</span>
+          <span>Battle Tank</span>
+        </nav>
+        <h1>Battle Tank</h1>
+        <p>A tank battle game built on a scalable architecture, with state-driven AI enemies, achievements and particle systems.</p>
       </div>
-    </section><!-- End Breadcrumbs -->
+    </section>
 
-    <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details" class="portfolio-details">
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper">
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/Battletank/0.png" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/Battletank/1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/Battletank/2.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/Battletank/3.jpg" alt="">
-                </div>
-
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
+    <!-- ======= Detail ======= -->
+    <section class="section">
+      <div class="shell">
+        <div class="detail-grid">
+          <div class="gallery reveal">
+            <figure><img src="assets/img/portfolio/Battletank/0.png" alt="Battle Tank screenshot 1" loading="lazy"></figure>
+            <figure><img src="assets/img/portfolio/Battletank/1.jpg" alt="Battle Tank screenshot 2" loading="lazy"></figure>
+            <figure><img src="assets/img/portfolio/Battletank/2.jpg" alt="Battle Tank screenshot 3" loading="lazy"></figure>
+            <figure><img src="assets/img/portfolio/Battletank/3.jpg" alt="Battle Tank screenshot 4" loading="lazy"></figure>
           </div>
 
-          <div class="col-lg-4">
-            <div class="portfolio-info">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Stack Used</strong>: Unity, C#</li>
-                <li><strong>Project date</strong>: December, 2023</li>
-                <li><strong>Github URL</strong>: <a href="battle-tank-game">https://github.com/tanya15gupta/battle-tank-game</a></li>
+          <div class="reveal" data-delay="120">
+            <div class="spec">
+              <h2>Project information</h2>
+              <dl>
+                <dt>Stack</dt>
+                <dd>Unity, C#</dd>
+                <dt>Date</dt>
+                <dd>December 2023</dd>
+                <dt>Repository</dt>
+                <dd>
+                  <a href="https://github.com/tanya15gupta/battle-tank-game">
+                    github.com/tanya15gupta/battle-tank-game
+                  </a>
+                </dd>
+              </dl>
+            </div>
+
+            <div class="spec">
+              <h2>Details</h2>
+              <h3>Features</h3>
+              <ul class="checks">
+                <li>Movement driven by an on-screen joystick.</li>
+                <li>AI enemies with idle, patrol, chase and shoot states.</li>
+                <li>Achievement system.</li>
+                <li>Particle systems for combat feedback.</li>
+              </ul>
+              <h3>Patterns</h3>
+              <ul class="checks">
+                <li>Singleton</li>
+                <li>Observer</li>
+                <li>MVC</li>
+                <li>State machine</li>
+                <li>Object pooling</li>
               </ul>
             </div>
-            <div class="portfolio-description">
-              <h2>Project Details:</h2>
-              <p>
-                This is a tank battle game created with unity. This game implements code architecture which is scalable and easliy modifyable.
-                <br>
-                <h3><strong>Features</strong></h3>
-                <ul class="stuff">
-                    <li>Movement with joystick.</li>
-                    <li>AI enemy with idle, partol, chase and shoot states.</li>
-                    <li>Achievement system</li>
-                    <li>Particle system</li>
-                </ul>
-                <h3><strong>Design patterns</strong></h3>
-                <ul class="stuff">
-                    <li>Singleton</li>
-                    <li>Observer</li>
-                    <li>MVC</li>
-                    <li>StateMachine</li>
-                    <li>Object pooling</li>
-                </ul>
-              </p>
-            </div>
-          </div>
 
+            <p style="margin-top:20px">
+              <a class="btn btn-primary" href="https://github.com/tanya15gupta/battle-tank-game">
+                <svg class="icon"><use href="#i-github"></use></svg>
+                View on GitHub
+              </a>
+            </p>
+          </div>
         </div>
 
+        <p style="margin-top:48px">
+          <a class="btn btn-ghost" href="index.html#work">
+            <svg class="icon"><use href="#i-arrow-left"></use></svg>
+            Back to projects
+          </a>
+        </p>
       </div>
-    </section><!-- End Portfolio Details Section -->
+    </section>
 
-  </main><!-- End #main -->
+  </main>
 
   <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-        <div class="copyright">
-            <!-- &copy; Copyright <strong><span>iPortfolio</span></strong>-->
-        </div>
-    <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-            <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>-->
-        </div>
+  <footer class="footer">
+    <div class="shell footer-inner">
+      <span>&copy; <span data-year>2026</span> Tanya Gupta</span>
+      <span>Game Developer / VR Developer · Bangalore, India</span>
     </div>
-  </footer><!-- End  Footer -->
+  </footer>
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a class="to-top" href="#" aria-label="Back to top">
+    <svg class="icon"><use href="#i-arrow-up"></use></svg>
+  </a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+  <script src="assets/js/app.js"></script>
 </body>
 
 </html>

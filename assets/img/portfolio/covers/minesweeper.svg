@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="Minesweeper">
+  <defs>
+    <linearGradient id="ms-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3b2f45"/>
+      <stop offset="100%" stop-color="#17111d"/>
+    </linearGradient>
+    <linearGradient id="ms-tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#348aa7"/>
+      <stop offset="100%" stop-color="#525174"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#ms-bg)"/>
+
+  <g stroke="#17111d" stroke-width="3">
+    <g fill="url(#ms-tile)">
+      <rect x="260" y="130" width="52" height="52" rx="4"/>
+      <rect x="316" y="130" width="52" height="52" rx="4"/>
+      <rect x="428" y="130" width="52" height="52" rx="4"/>
+      <rect x="484" y="130" width="52" height="52" rx="4"/>
+      <rect x="260" y="186" width="52" height="52" rx="4"/>
+      <rect x="484" y="186" width="52" height="52" rx="4"/>
+      <rect x="260" y="242" width="52" height="52" rx="4"/>
+      <rect x="372" y="242" width="52" height="52" rx="4"/>
+      <rect x="484" y="242" width="52" height="52" rx="4"/>
+      <rect x="316" y="298" width="52" height="52" rx="4"/>
+      <rect x="428" y="298" width="52" height="52" rx="4"/>
+    </g>
+    <g fill="#221a29">
+      <rect x="372" y="130" width="52" height="52" rx="4"/>
+      <rect x="316" y="186" width="52" height="52" rx="4"/>
+      <rect x="372" y="186" width="52" height="52" rx="4"/>
+      <rect x="428" y="186" width="52" height="52" rx="4"/>
+      <rect x="316" y="242" width="52" height="52" rx="4"/>
+      <rect x="428" y="242" width="52" height="52" rx="4"/>
+      <rect x="260" y="298" width="52" height="52" rx="4"/>
+      <rect x="372" y="298" width="52" height="52" rx="4"/>
+      <rect x="484" y="298" width="52" height="52" rx="4"/>
+    </g>
+  </g>
+
+  <g font-family="Open Sans, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle">
+    <text x="342" y="221" fill="#bce784">1</text>
+    <text x="398" y="221" fill="#5dd39e">2</text>
+    <text x="454" y="221" fill="#bce784">1</text>
+    <text x="342" y="277" fill="#f0f3ec">3</text>
+    <text x="454" y="277" fill="#f0f3ec">3</text>
+    <text x="398" y="333" fill="#5dd39e">2</text>
+  </g>
+
+  <g transform="translate(398 156)">
+    <circle r="16" fill="#f0f3ec"/>
+    <g stroke="#f0f3ec" stroke-width="4" stroke-linecap="round">
+      <line x1="-22" y1="0" x2="22" y2="0"/>
+      <line x1="0" y1="-22" x2="0" y2="22"/>
+      <line x1="-15" y1="-15" x2="15" y2="15"/>
+      <line x1="-15" y1="15" x2="15" y2="-15"/>
+    </g>
+    <circle cx="-5" cy="-5" r="4" fill="#525174"/>
+  </g>
+
+  <text x="400" y="80" text-anchor="middle" font-family="Poppins, Raleway, Arial, sans-serif"
+        font-size="44" font-weight="700" letter-spacing="4" fill="#ffffff">MINESWEEPER</text>
+  <text x="400" y="420" text-anchor="middle" font-family="Open Sans, Arial, sans-serif"
+        font-size="17" letter-spacing="2" fill="#5dd39e">C++ &#183; CONSOLE &#183; 3 DIFFICULTIES</text>
+</svg>

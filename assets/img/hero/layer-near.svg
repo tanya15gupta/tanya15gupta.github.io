@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="160" viewBox="0 0 600 160" preserveAspectRatio="none">
+  <!-- Foreground platform. Surface sits at y=60; tufts stay clear of both edges. -->
+  <rect x="0" y="60" width="600" height="100" fill="#1b1523"/>
+  <rect x="0" y="60" width="600" height="5" fill="#2f4a3f"/>
+  <g fill="#3d6b55">
+    <path d="M52 60q4-16 9-20-1 12 2 20zM64 60q5-14 11-17-3 10-2 17zM76 60q3-12 8-15-2 9 0 15z"/>
+    <path d="M214 60q4-15 9-19-1 11 2 19zM226 60q5-13 11-16-3 9-2 16z"/>
+    <path d="M362 60q4-17 10-21-2 13 1 21zM375 60q5-12 10-15-2 9-1 15zM386 60q3-11 8-14-2 8 0 14z"/>
+    <path d="M498 60q4-14 9-18-1 11 2 18zM510 60q5-13 11-16-3 9-2 16z"/>
+  </g>
+  <g fill="#241d2e">
+    <rect x="130" y="72" width="26" height="9" rx="4"/>
+    <rect x="300" y="86" width="34" height="10" rx="5"/>
+    <rect x="452" y="74" width="22" height="8" rx="4"/>
+  </g>
+</svg>

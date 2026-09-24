@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="Wave">
+  <defs>
+    <linearGradient id="wv-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#221a29"/>
+      <stop offset="100%" stop-color="#17111d"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#wv-bg)"/>
+
+  <g fill="none" stroke-linecap="round">
+    <path d="M-20 300 Q 80 240 180 300 T 380 300 T 580 300 T 780 300 T 980 300"
+          stroke="#5dd39e" stroke-width="3" opacity="0.85"/>
+    <path d="M-20 330 Q 80 265 180 330 T 380 330 T 580 330 T 780 330 T 980 330"
+          stroke="#bce784" stroke-width="2.5" opacity="0.6"/>
+    <path d="M-20 360 Q 80 295 180 360 T 380 360 T 580 360 T 780 360 T 980 360"
+          stroke="#348aa7" stroke-width="2" opacity="0.5"/>
+  </g>
+
+  <g fill="#5dd39e" opacity="0.5">
+    <rect x="120" y="180" width="10" height="40" rx="5"/>
+    <rect x="160" y="160" width="10" height="60" rx="5"/>
+    <rect x="200" y="140" width="10" height="80" rx="5"/>
+    <rect x="600" y="140" width="10" height="80" rx="5"/>
+    <rect x="640" y="160" width="10" height="60" rx="5"/>
+    <rect x="680" y="180" width="10" height="40" rx="5"/>
+  </g>
+
+  <circle cx="400" cy="300" r="16" fill="#f0f3ec"/>
+  <circle cx="400" cy="300" r="26" fill="none" stroke="#f0f3ec" stroke-width="2" opacity="0.4"/>
+
+  <text x="400" y="110" text-anchor="middle" font-family="Poppins, Raleway, Arial, sans-serif"
+        font-size="56" font-weight="700" letter-spacing="10" fill="#ffffff">WAVE</text>
+  <text x="400" y="142" text-anchor="middle" font-family="Open Sans, Arial, sans-serif"
+        font-size="17" letter-spacing="2" fill="#5dd39e">UNITY &#183; C# &#183; PLAY STORE</text>
+</svg>

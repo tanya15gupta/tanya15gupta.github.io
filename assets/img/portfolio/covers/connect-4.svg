@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="Connect 4">
+  <defs>
+    <linearGradient id="c4-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3b2f45"/>
+      <stop offset="100%" stop-color="#17111d"/>
+    </linearGradient>
+    <mask id="c4-holes">
+      <rect x="250" y="120" width="300" height="260" rx="14" fill="#ffffff"/>
+      <g fill="#000000">
+        <circle cx="290" cy="160" r="17"/><circle cx="330" cy="160" r="17"/><circle cx="370" cy="160" r="17"/>
+        <circle cx="410" cy="160" r="17"/><circle cx="450" cy="160" r="17"/><circle cx="490" cy="160" r="17"/><circle cx="530" cy="160" r="17"/>
+        <circle cx="290" cy="205" r="17"/><circle cx="330" cy="205" r="17"/><circle cx="370" cy="205" r="17"/>
+        <circle cx="410" cy="205" r="17"/><circle cx="450" cy="205" r="17"/><circle cx="490" cy="205" r="17"/><circle cx="530" cy="205" r="17"/>
+        <circle cx="290" cy="250" r="17"/><circle cx="330" cy="250" r="17"/><circle cx="370" cy="250" r="17"/>
+        <circle cx="410" cy="250" r="17"/><circle cx="450" cy="250" r="17"/><circle cx="490" cy="250" r="17"/><circle cx="530" cy="250" r="17"/>
+        <circle cx="290" cy="295" r="17"/><circle cx="330" cy="295" r="17"/><circle cx="370" cy="295" r="17"/>
+        <circle cx="410" cy="295" r="17"/><circle cx="450" cy="295" r="17"/><circle cx="490" cy="295" r="17"/><circle cx="530" cy="295" r="17"/>
+        <circle cx="290" cy="340" r="17"/><circle cx="330" cy="340" r="17"/><circle cx="370" cy="340" r="17"/>
+        <circle cx="410" cy="340" r="17"/><circle cx="450" cy="340" r="17"/><circle cx="490" cy="340" r="17"/><circle cx="530" cy="340" r="17"/>
+      </g>
+    </mask>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#c4-bg)"/>
+
+  <g>
+    <circle cx="330" cy="340" r="15" fill="#bce784"/>
+    <circle cx="370" cy="340" r="15" fill="#348aa7"/>
+    <circle cx="410" cy="340" r="15" fill="#bce784"/>
+    <circle cx="450" cy="340" r="15" fill="#348aa7"/>
+    <circle cx="370" cy="295" r="15" fill="#348aa7"/>
+    <circle cx="410" cy="295" r="15" fill="#bce784"/>
+    <circle cx="450" cy="295" r="15" fill="#bce784"/>
+    <circle cx="410" cy="250" r="15" fill="#348aa7"/>
+    <circle cx="450" cy="250" r="15" fill="#bce784"/>
+    <circle cx="450" cy="205" r="15" fill="#bce784"/>
+  </g>
+
+  <rect x="250" y="120" width="300" height="260" rx="14" fill="#525174" mask="url(#c4-holes)"/>
+
+  <text x="400" y="80" text-anchor="middle" font-family="Poppins, Raleway, Arial, sans-serif"
+        font-size="44" font-weight="700" letter-spacing="4" fill="#ffffff">CONNECT 4</text>
+  <text x="400" y="420" text-anchor="middle" font-family="Open Sans, Arial, sans-serif"
+        font-size="17" letter-spacing="2" fill="#5dd39e">C++ &#183; CONSOLE &#183; 2 PLAYER</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" preserveAspectRatio="none">
+  <!-- Distant canopy ridge. Flat at both edges (y=250) so the tile repeats seamlessly. -->
+  <path fill="#2a2036"
+        d="M0 320 L0 250
+           Q 60 188 120 242 Q 180 202 240 246 Q 300 176 360 236
+           Q 420 206 480 250 Q 540 186 600 240 Q 660 196 720 246
+           Q 780 182 840 238 Q 900 210 960 248 Q 1020 186 1080 240
+           Q 1140 206 1200 250 L1200 320 Z"/>
+  <g fill="#31263f">
+    <circle cx="150" cy="232" r="26"/><circle cx="188" cy="244" r="20"/>
+    <circle cx="512" cy="240" r="24"/><circle cx="548" cy="250" r="18"/>
+    <circle cx="880" cy="234" r="27"/><circle cx="922" cy="246" r="19"/>
+  </g>
+</svg>

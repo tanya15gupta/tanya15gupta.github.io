@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" preserveAspectRatio="none">
+  <!-- Mid-ground trunks and fronds. Nothing crosses x=0 or x=900, so the tile repeats cleanly. -->
+  <!-- Two trees kept; the other two positions are now windmills, which are
+       drawn as separate elements so their blades can turn. -->
+  <g fill="#3b2f45">
+    <rect x="112" y="150" width="16" height="170" rx="4"/>
+    <rect x="560" y="162" width="14" height="158" rx="4"/>
+  </g>
+  <g fill="#44384f">
+    <path d="M120 152q-52-26-72 8 44 10 72 12zM120 152q50-30 74 4-46 10-74 10z"/>
+    <path d="M567 164q-46-22-64 8 40 8 64 10zM567 164q44-26 66 4-40 8-66 8z"/>
+  </g>
+</svg>
